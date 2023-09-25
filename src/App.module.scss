@@ -1,0 +1,84 @@
+/* Guest List Container */
+div {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 30px 60px 45px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #d6ffb7;
+}
+
+/* Header Style */
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: large;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Form Style */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+  gap: 5px;
+}
+
+label {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #443e3e;
+  border-radius: 5px;
+  padding: 10px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Guest List Style */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+/* Loading Text Style */
+p {
+  font-size: 16px;
+  color: #333;
+  margin: 20px 0;
+}
